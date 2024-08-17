@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Cabeçalho-->
+
+    <header>
+        <img src="Jakatei.png" alt="" class="logo">
+        <nav class="navigation">
+            <a href="index.html">Início</a>
+            <a href="Restaurantes.html">Restaurantes</a>
+            <!--<a href="Suporte.html">Contato</a>
+            <a href="Sobre.html">Sobre</a>-->
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <!--Login-->
+        <div class="display-reto">
+            <div class="wrapper">
+                <span class="icon-close">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+    
+    
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="#">
+                        
+                        <div class="input-box">
+                            <span class="login-icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+        
+                        <div class="input-box">
+                            <span class="login-icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Senha</label>
+                        </div>
+        
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Lembre-se de mim</label>
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                        <button type="submit" class="btnLogin-submit">Login</button>
+                        <div class="login-register">
+                            <p>Não possui uma conta? <a href="#" class="register-link">Cadastre-se aqui</a></p>
+                        </div>
+                    </form>
+                </div>
+    
+                <!--Cadastro-->
+    
+                <div class="form-box register">
+                    <h2>Cadastro</h2>
+                    <form action="#">
+    
+                        <div class="input-box">
+                            <span class="login-icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Username</label>
+                        </div>
+                        
+                        <div class="input-box">
+                            <span class="login-icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+        
+                        <div class="input-box">
+                            <span class="login-icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Senha</label>
+                        </div>
+        
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Eu concordo com os termos e condições</label>
+                        </div>
+                        <button type="submit" class="btnLogin-submit">Cadastrar-se</button>
+                        <div class="login-register">
+                            <p>Já possui uma conta? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+    
+    
+            </div>
+        </div>
+
+    <!--Busca-->
+
+    <section class="bg-section">
+
+        <div class="searchbar">
+            <span class="search-text">Saboreie a culinária japonesa</span>
+        
+            <div class="search-bar-flex">
+                <div class="search-bar">
+                    <span class="search-icon"><ion-icon name="search"></ion-icon></span>
+                    <input type="text" class="search-grey" placeholder="Qual seu endereço?">
+                        <a href="Restaurantes.html">
+                            <span class="search-red">Ver restaurantes próximos</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Restaurantes-->
+
+    <div class="restaurant">
+        <a href="Restaurantes.html">
+            <button class="btnRestaurantes">
+                   Restaurantes
+           </button>
+        </a>
+        <br>
+        <a href="Restaurantes.html"> <!-- colocar pra ir para um id na página de restaurantes que se chama bebida-->
+            <button class="btnBebidas">
+                   Bebidas
+           </button>
+        </a>
+    </div>
+
+    <!--Barrinha-->
+
+    <div class="section-bar">________________________________________________</div>
+
+    <!--MelhoresRestaurantes-->
+
+    <div class="title-advertisements">
+        Melhores Restaurantes
+    </div>
+    
+    <div class="advertisements">
+
+        <div>
+            <img class="b" src="Banner1.png" alt="">
+        </div>
+
+        <div>
+            <img class="b" src="Banner2.png" alt="">
+        </div>
+    </div>
+        
+    <!--Barrinha-->
+
+    <div class="section-barfooter"></div>
+
+    <!--Rodapé-->
+
+    <footer>
+
+        <div class="footer-flex">
+
+            <ul>
+                <li>Jakatei</li>
+                <a href="Suporte.html"><li>Suporte</li></a>
+                <a href="Sobre.html"><li>Sobre nós</li></a>
+                <li>Dicas de Segurança</li>
+                <li>Política de Privacidade</li>
+            </ul>
+
+            <ul>
+                <li>Jakatei</li>
+                <a href="Suporte.html"><li>Suporte</li></a>
+                <a href="Sobre.html"><li>Sobre nós</li></a>
+                <li>Dicas de Segurança</li>
+                <li>Política de Privacidade</li>
+            </ul>
+
+            <div>
+                <div class="social-icon">Social</div>
+                <span><ion-icon name="logo-instagram"></ion-icon></span>
+                <span><ion-icon name="logo-twitter"></ion-icon></span>
+                <span><ion-icon name="logo-facebook"></ion-icon></span>
+            </div>
+
+        </div>
+
+    </footer>
+ 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>

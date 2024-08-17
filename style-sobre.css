@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kelly Slab", sans-serif;
+}
+
+body {
+    background-color: #282525;
+}
+
+.logo {
+    
+    height: calc(100px + 20px);
+    margin: -20px -50px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #ff5959;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.navigation > a {
+    position: relative;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.navigation > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;    
+}
+
+.navigation > a:hover:after {
+    transform: scaleX(1);
+}
+
+.navigation > .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.abt-text {
+    margin-top: 140px;
+    color: #fff;
+}
+
+.abt-text > div > span {
+    font-size: 1.1em;
+}
+
+.abt-text > div > h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.abt-text > div {
+    background: #ff5959;
+    padding: 20px;
+    position: absolute;
+    border: 2px solid #961c1c;
+    border-radius: 22px;
+}
+
+.abt-text1 {
+    width: 475px;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+
+.abt-text2 {
+    width: 475px;
+    margin-left: 60%;
+    margin-top: 12%;
+}
+
+.abt-text3 {
+    width: 475px;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.espaco {
+    height: 100vh;
+    width: 100%;
+}
+
+.section-barfooter {
+    font-size: 3em;
+    margin: 70px 0 50px 0;
+    text-align: center;
+    background: #221f1f;
+    height: 50px;
+    width: 100%;
+}
+
+.footer-flex {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.footer-flex > ul {
+    list-style: none;
+}
+
+.footer-flex > ul > a li{
+    margin-top: 20px;
+
+}
+
+.footer-flex > ul > a {
+    text-decoration: none;
+    color: #adacac;
+}
+
+.footer-flex > ul > li {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 10px;
+    margin-bottom: 10px;
+}
